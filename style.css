@@ -63,12 +63,21 @@ header .logo{
 	width: 100px;
 	
 }
+
+section,title{
+	font-size: 25px;
+	background: white;
+	padding: 20px;
+	text-align: center;
+}
+
 ul.topnav {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #FE6666;
+	 font-family: 'Crafty Girls', cursive;
 	 
 }
 
@@ -96,25 +105,24 @@ ul.topnav li a:hover{
 
 
 /* main content */
+
+article,a1{
+	width: 70%;
+	margin: 0 auto;
+}
+
 article {
    min-height: 500px;
-   width:70%;
+   width:100%;
    padding:20px;
-   float: left;
   background-color: #ffa07a;
  font-family: 'Crafty Girls', cursive;
- margin: left;
- margin: right;
+clear: both;
   
-  
- 
-  
-
 }
 
 img{
  width: 300px;
- float: left;
  margin-left: 20px;
  border: 5px solid white;
  margin-right: 10px;
@@ -131,10 +139,16 @@ aside {
    background-color: #ffefdb;
    color: black;
    float: right;
+   clear: both;
    padding: 20px;
    font-family: 'Architects Daughter', cursive;
    
   }
+.box{
+	padding: 50px;
+	width: 70%;
+	margin: 0 auto;
+}
 
  {
     box-sizing: border-box;
